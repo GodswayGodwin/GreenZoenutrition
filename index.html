@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GreenZoe Nutrition – Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'Segoe UI', sans-serif; }
+    nav, footer { background: #0f5132; color: white; padding: 1rem; text-align: center; }
+    nav a { color: white; margin: 0 10px; text-decoration: none; }
+    .slider { position: relative; overflow: hidden; }
+    .slides { display: flex; width: 300%; animation: slide 12s infinite; }
+    .slides img { width: 100vw; height: 60vh; object-fit: cover; }
+    @keyframes slide {
+      0% { transform: translateX(0); }
+      33% { transform: translateX(-100vw); }
+      66% { transform: translateX(-200vw); }
+      100% { transform: translateX(0); }
+    }
+    section { padding: 2rem; text-align: center; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="slider">
+    <div class="slides">
+      <img src="https://source.unsplash.com/1200x600/?organic,food" alt="Slide 1">
+      <img src="https://source.unsplash.com/1200x600/?vegetables,healthy" alt="Slide 2">
+      <img src="https://source.unsplash.com/1200x600/?nutrition,smoothie" alt="Slide 3">
+    </div>
+  </div>
+
+  <section>
+    <h1>Welcome to GreenZoe Nutrition</h1>
+    <p>Where nutrition meets nature. Discover organic wellness products and personalized consultations to elevate your health.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 GreenZoe Nutrition</p>
+  </footer>
+</body>
+</html>

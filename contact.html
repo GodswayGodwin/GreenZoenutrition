@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact – GreenZoe Nutrition</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { margin: 0; font-family: 'Segoe UI', sans-serif; }
+    nav, footer { background: #0f5132; color: white; padding: 1rem; text-align: center; }
+    nav a { color: white; margin: 0 10px; text-decoration: none; }
+    section { padding: 2rem; max-width: 800px; margin: auto; }
+    label, input, textarea { display: block; width: 100%; margin-bottom: 1rem; }
+    input, textarea { padding: 0.5rem; border: 1px solid #ccc; border-radius: 5px; }
+    button { padding: 0.75rem 1.5rem; background: #0f5132; color: white; border: none; border-radius: 5px; cursor: pointer; }
+  </style>
+</head>
+<body>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="blog.html">Blog</a>
+  <a href="contact.html">Contact</a>
+</nav>
+<section>
+  <h1>Contact Us</h1>
+  <form action="https://formspree.io/f/mayrkywj" method="POST">
+    <label>Name:</label>
+    <input type="text" name="name" required>
+    <label>Email:</label>
+    <input type="email" name="email" required>
+    <label>Message:</label>
+    <textarea rows="5" name="message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+<footer>
+  <p>&copy; 2025 GreenZoe Nutrition</p>
+</footer>
+</body>
+</html>
